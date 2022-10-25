@@ -1,0 +1,14 @@
+{
+  "name": "govcomm-server",
+  "version": "1.0.0",
+  "description": "Node.js TCP relay.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Charlie Weems (Twilio)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
