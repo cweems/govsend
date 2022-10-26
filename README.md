@@ -2,9 +2,13 @@
 A proxy to access Twilio APIs. This project contains a Java Twilio client that sends all requests over a node.js proxy server.
 
 ## Setup
+Set up the server:
 ```bash
 # Clone the repository:
 git clone git@github.com:cweems/govsend.git
+
+# Install Maven depdencies and build project:
+mvn package
 
 # Create a copy of the .env file:
 cp .env.example .env
